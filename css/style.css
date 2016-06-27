@@ -1,0 +1,125 @@
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul{padding:0;margin:0}table{border-collapse:collapse;border-spacing:0}abbr,acronym,fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%}q:after,q:before{content:''}
+
+body {
+    background: #7c7c7c url(../img/Background.png) no-repeat 50% 0;
+}
+
+.container {
+    max-width: 962px;
+    
+    margin: auto;
+    font-size: 12px;
+    font-family: "Tahoma";
+    color: rgb( 230, 230, 230 );
+}
+
+/* Header ----------------------------------------------------------*/
+
+.header {
+    position: relative;
+    height: 202px;
+    margin: auto;
+    max-width: 832px;
+}
+
+.header img:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 147px;
+    z-index: 0;
+}
+
+.header .logo {
+    position: absolute;
+    bottom: 35px;
+    left: -142px;
+    z-index: 10;
+    width: 263px;
+}
+
+.header .logo p {
+    position: absolute;
+    right: -81px;
+    bottom: -20px;
+}
+
+.header .contact {
+    float: right;
+    margin-top: 138px;
+    margin-right: 12px;
+}
+
+.contact h1 {
+    margin-bottom: 5px;
+    font-size: 1.35em;
+}
+
+/* Content ---------------------------------------------------------*/
+
+.content {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    margin: auto;
+    max-width: 840px;
+}
+
+.box p {
+    margin-top: -8px;
+}
+
+.India,
+.Nepal,
+.Tibet,
+.Bhutan,
+.Sri_lanka,
+.Maldives {
+    float: left;
+    width: 272px;
+    margin-right: 12px;
+    margin-bottom: 44px; 
+    font-size: 18px;
+    font-family: "Tahoma";
+    color: rgb( 230, 230, 230 );
+}
+
+.Tibet, .Maldives {
+    margin-right: 0;
+}
+
+/* Footer -----------------------------------------------------------*/
+
+.footer {
+    margin-top: 138px;
+}
+
+.copy {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
